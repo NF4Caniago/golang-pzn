@@ -8,7 +8,9 @@ func random() any {
 func main() {
 	var value any = random()
 	var valueString string = value.(string)
-	fmt.Println(valueString)
+	// valueString, status := value.(string)
+	// fmt.Println(status)
+	// fmt.Println(valueString)
 
 	var result any = random()
 	switch typeResult := result.(type) {
