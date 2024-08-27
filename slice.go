@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	names := [...]string{"afif", "ilham", "caniago", "latipsa", "lailatur", "azizah"}
+	names := [...]string{"afif", "ilham", "caniago", "latipsa", "lailatur", "eko"}
 	slice := names[3:6]
 	fmt.Println(slice)
 

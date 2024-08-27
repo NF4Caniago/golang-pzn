@@ -10,5 +10,5 @@ func main() {
 	vargoodby := getGoodBye
 	var2goodbye := getGoodBye
 	fmt.Println(vargoodby("afif"))
-	fmt.Println(var2goodbye("azizah"))
+	fmt.Println(var2goodbye("tipong"))
 }
